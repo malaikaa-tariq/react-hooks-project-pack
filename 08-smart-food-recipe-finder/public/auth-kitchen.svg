@@ -1,0 +1,45 @@
+<svg width="800" height="760" viewBox="0 0 800 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="760" rx="36" fill="#2C1C16"/>
+  <circle cx="110" cy="110" r="70" fill="#E45A34" fill-opacity="0.18"/>
+  <circle cx="700" cy="120" r="95" fill="#E3B14B" fill-opacity="0.12"/>
+  <circle cx="680" cy="650" r="110" fill="#FFF3E0" fill-opacity="0.08"/>
+  <circle cx="165" cy="610" r="90" fill="#8A9B4A" fill-opacity="0.12"/>
+
+  <rect x="130" y="90" width="540" height="580" rx="32" fill="#FFF3E0"/>
+  <rect x="160" y="120" width="480" height="185" rx="24" fill="#F3E0D0"/>
+  <circle cx="240" cy="210" r="46" fill="#E3B14B"/>
+  <path d="M225 212c0-13 10-23 23-23h34c13 0 23 10 23 23 0 7-2 13-6 18h-68c-4-5-6-11-6-18Z" fill="#FDF7F1"/>
+  <rect x="214" y="226" width="86" height="22" rx="11" fill="#FDF7F1"/>
+  <rect x="192" y="258" width="110" height="14" rx="7" fill="#D7B796"/>
+  <rect x="340" y="165" width="250" height="18" rx="9" fill="#D7B796"/>
+  <rect x="340" y="198" width="212" height="16" rx="8" fill="#E3CDB5"/>
+  <rect x="340" y="229" width="175" height="16" rx="8" fill="#E3CDB5"/>
+  <rect x="340" y="260" width="228" height="16" rx="8" fill="#E3CDB5"/>
+
+  <rect x="160" y="336" width="310" height="290" rx="26" fill="#FAF3EC" stroke="#E8D5C0"/>
+  <text x="195" y="380" fill="#2C1C16" font-family="Georgia, serif" font-size="28" font-weight="700">Welcome to Savoria</text>
+  <text x="195" y="410" fill="#8B7355" font-family="Arial, Helvetica, sans-serif" font-size="16">Plan meals, save favorites, and cook smarter.</text>
+
+  <g>
+    <circle cx="215" cy="470" r="16" fill="#E45A34"/>
+    <rect x="245" y="458" width="170" height="22" rx="11" fill="#EAD9C6"/>
+  </g>
+  <g>
+    <circle cx="215" cy="520" r="16" fill="#8A9B4A"/>
+    <rect x="245" y="508" width="145" height="22" rx="11" fill="#EAD9C6"/>
+  </g>
+  <g>
+    <circle cx="215" cy="570" r="16" fill="#E3B14B"/>
+    <rect x="245" y="558" width="185" height="22" rx="11" fill="#EAD9C6"/>
+  </g>
+
+  <rect x="500" y="336" width="140" height="290" rx="26" fill="#F8E8D4"/>
+  <circle cx="570" cy="404" r="42" fill="#E45A34"/>
+  <path d="M541 405c0-12 9-21 21-21h16c12 0 21 9 21 21 0 5-1 10-4 14h-50c-3-4-4-9-4-14Z" fill="#FFF3E0"/>
+  <rect x="531" y="417" width="78" height="20" rx="10" fill="#FFF3E0"/>
+  <path d="M536 515c0-32 26-58 58-58s58 26 58 58c0 28-20 51-46 57l18 30h-26l-18-27a59 59 0 0 1-10 0l-18 27h-26l18-30c-26-6-46-29-46-57Z" fill="#8A9B4A"/>
+  <circle cx="570" cy="515" r="26" fill="#FFF3E0"/>
+  <circle cx="558" cy="507" r="4" fill="#E45A34"/>
+  <circle cx="581" cy="520" r="5" fill="#E3B14B"/>
+  <circle cx="572" cy="532" r="4" fill="#E45A34"/>
+</svg>
