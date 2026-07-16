@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: #f9f4ff;
+  background:
+    radial-gradient(circle at 12% 10%, rgba(159, 87, 255, 0.35), transparent 32%),
+    radial-gradient(circle at 85% 4%, rgba(255, 91, 193, 0.22), transparent 30%),
+    radial-gradient(circle at 50% 100%, rgba(104, 72, 255, 0.32), transparent 35%),
+    #090512;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  background-image: url("data:image/svg+xml,%3Csvg width='1600' height='900' viewBox='0 0 1600 900' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.45'%3E%3Cpath d='M70 150h160M150 70v160M1320 160h190M1420 65v210M100 760h210M210 660v200M1180 720h270M1320 610v260'/%3E%3Cpath d='M420 130c90 90 180 90 270 0M790 760c115-110 240-110 365 0M1080 270c80 70 165 70 250 0'/%3E%3Ccircle cx='350' cy='280' r='5'/%3E%3Ccircle cx='1220' cy='430' r='5'/%3E%3Ccircle cx='740' cy='180' r='4'/%3E%3Ccircle cx='980' cy='610' r='4'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='.28'%3E%3Ccircle cx='245' cy='415' r='2'/%3E%3Ccircle cx='560' cy='665' r='2'/%3E%3Ccircle cx='890' cy='280' r='2'/%3E%3Ccircle cx='1370' cy='515' r='2'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: linear-gradient(to bottom, transparent, black 20%, black 75%, transparent);
+  z-index: -1;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(190, 128, 255, 0.75);
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
